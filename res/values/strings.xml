@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SoundBox</string>
+    <string name="activity_animals_title">Animals</string>
+    <string name="activity_cartoons_title">Cartoons</string>
+    <string name="activity_alerts_title">Alerts</string>
+    <string name="activity_funny_title">Funny</string>
+</resources>

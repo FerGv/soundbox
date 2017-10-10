@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fer.gv.com.soundbox.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/activity_animals_btnBack"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/left_arrow"
+                android:scaleType="centerInside"
+                android:background="#fff"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:background="#fff"
+                android:text="@string/activity_animals_title"
+                android:textSize="60sp"
+                android:textColor="@color/colorAccent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/activity_animals_btnDolphin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/animal_dolphin"
+                android:scaleType="fitXY"
+                android:background="#fff"
+                android:adjustViewBounds="true"/>
+            <ImageButton
+                android:id="@+id/activity_animals_btnHyena"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/animal_hyena"
+                android:scaleType="fitXY"
+                android:background="#fff"
+                android:adjustViewBounds="true"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/activity_animals_btnMonkey"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/animal_monkey"
+                android:scaleType="fitXY"
+                android:background="#fff"
+                android:adjustViewBounds="true"/>
+            <ImageButton
+                android:id="@+id/activity_animals_btnLion"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/animal_lion"
+                android:scaleType="fitXY"
+                android:background="#fff"
+                android:adjustViewBounds="true"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
